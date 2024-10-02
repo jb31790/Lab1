@@ -1,2 +1,28 @@
 # Lab1
 Lab 1
+
+***Objective:***
+
+Construct an advanced personal portfolio website with a deep focus on HTML and CSS.
+
+##  Requirements:
+- Develop a multi-page website (minimum 4 pages) with consistent, advanced styling.
+- Use a variety of semantic HTML tags for structured, accessible content.
+- Create a responsive 3x3 image gallery; use CSS for styling and hover effects.
+- Detail your personal section with skills, experiences, and project descriptions.
+- Design a dynamic navigation bar with active states and smooth page scrolling.
+    - Active States:
+        An active state is when the currently selected or visited page is visually distinguished in the navigation bar. For example, if you're on the "About" page, the "About" link in the navigation bar might be highlighted or styled differently (e.g., bold text, different background color) to indicate it’s the active section.
+    - Smooth Page Scrolling:
+        When users click on links that navigate to different sections of the page, instead of jumping abruptly, the page should scroll smoothly to the target section.
+        This can be achieved purely with CSS. You don't need JavaScript for this feature (despite the fact that it can be acheived in Javascript)
+- Develop a comprehensive contact form using `mailto:` for submission.
+    The form should include fields for name, email, and message, with clearly labeled fields to ensure accessibility. The emphasis here is on creating a complete, well-designed, and user-friendly form. This means it should be fully detailed, with a logical structure and an intuitive layout, making it easy for users to fill out and submit their information.
+- Organize the CSS file with advanced techniques** like CSS variables.
+- Enhance user experience with interactive elements and basic CSS animations.
+- Implement thorough responsive design for various devices and screen sizes.
+- Add a comprehensive footer with a contact form link, social media icons, and quick navigation links.
+    A comprehensive footer should provide essential information and links in a neat, structured way, enhancing the website’s usability and overall design.
+
+
+## Plan
