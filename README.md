@@ -38,13 +38,13 @@ Construct an advanced personal portfolio website with a deep focus on HTML and C
 - Footer with fake ig, x, fb links, fake privacy-policy, tos, copyright, etc.
 
 ### Todo
-- [ ] html outline for every page
-- [ ] html footer
-- [ ] html nav
-- [ ] get logos for social links
-- [ ] <++>
-- [ ] <++>
-- [ ] <++>
+- [x] html outline for every page
+- [x] html footer
+- [x] html nav
+- [x] get logos for social links
+- [ ] css for header
+- [ ] css for footer
+- [ ] get logo and name for website
 - [ ] <++>
 - [ ] <++>
 - [ ] <++>
