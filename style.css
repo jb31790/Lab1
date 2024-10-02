@@ -12,7 +12,7 @@
 	--font-monospace: "Space Mono", monospace;
 	--header-height: 5em;
 	--footer-height: 13em;
-	--debug-mode: 1;
+	--debug-mode: 0;
 	--debug-outline: calc(2px * var(--debug-mode)) solid red;
 }
 
