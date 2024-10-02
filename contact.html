@@ -23,8 +23,31 @@
 	</header>
 
 	<main>
-		<h1 id="page-header"><em>Home</em></h1>
+		<h1 id="page-header"><em>Contact</em></h1>
+		<section id="text-section">
+			<h1 id="description"># Contact Me</h1>
+			Below this text is a small contact form to send me emails.
+			<br>
+			<br>
+			Well... of course I won't give you my real email-address, so this form is utterly useless...
+			I guess it looks kinda nice at least
+		</section>
 
+		<section id="contact-form">
+			<form action="mailto:jb@fakemail.com" method="get" enctype="text/plain">
+				<div id="sender-info">
+					<input type="text" name="subject" placeholder="Subject" required>
+					<input type="email" name="email" placeholder="Your Email Address" required>
+				</div>
+
+				<textarea name="body" rows="5" cols="30" placeholder="Your Message Goes Here" required></textarea><br>
+
+				<input id="submit" type="submit" value="Send">
+			</form>
+		</section>
+
+
+		<div id="end-padding"></div>
 	</main>
 
 	<footer>
@@ -56,17 +79,15 @@
 			<nav>
 				<ul>
 					<li>
-						<p><a href="#top">Go to top</a></p>
+						<p><a href="#top"># top</a></p>
 					</li>
 					<li>
-						<p><a href="#">Link 1</a></p>
+						<p><a href="#description"># description</a></p>
 					</li>
 					<li>
-						<p><a href="#">Link 2</a></p>
+						<p><a href="#contact-form"># contact-form</a></p>
 					</li>
-					<li>
-						<p><a href="#">Link 3</a></p>
-					</li>
+
 				</ul>
 
 			</nav>

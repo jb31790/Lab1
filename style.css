@@ -1,3 +1,6 @@
+/* Global */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
 
@@ -32,6 +35,14 @@ a {
 	text-decoration: none;
 	color: var(--main-fg);
 }
+
+.svg-color {
+	filter: invert(33%) sepia(22%) saturate(2361%) hue-rotate(321deg) brightness(101%) contrast(95%);
+}
+
+
+
+/* Header */
 
 header {
 	border: var(--debug-outline);
@@ -109,9 +120,7 @@ header nav ul li a:hover {
 
 
 
-.svg-color {
-	filter: invert(33%) sepia(22%) saturate(2361%) hue-rotate(321deg) brightness(101%) contrast(95%);
-}
+/* Main */
 
 main {
 	min-height: calc(99vh - var(--header-height) - var(--footer-height));
@@ -121,6 +130,24 @@ main {
 	align-items: center;
 
 }
+
+#text-section {
+	padding-top: 3em;
+	width: 40%;
+	padding-bottom: 1em;
+}
+
+#text-section p {
+	opacity: 0.8;
+}
+
+#end-padding {
+	margin-bottom: 7em;
+}
+
+
+
+/* Footer */
 
 footer {
 	outline: var(--debug-outline);
@@ -239,22 +266,12 @@ footer #data p:hover {
 }
 
 
-#text-section {
-	padding-top: 3em;
-	width: 40%;
-	padding-bottom: 1em;
-}
-
-#text-section p {
-	opacity: 0.8;
-}
-
-#end-padding {
-	margin-bottom: 7em;
-}
 
 
+/* --- Page Specific Styling --- */
 
+
+/* Gallery */
 
 #gallery {
 	outline: var(--debug-outline);
@@ -292,3 +309,88 @@ footer #data p:hover {
 	z-index: 3;
 	opacity: 1;
 }
+
+
+
+/* Contact */
+
+#contact-form {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+input,
+textarea {
+	background-color: var(--main-overlay-bg);
+	padding: 0.9em;
+	border: 1px solid #111;
+	border-radius: 25px;
+	color: var(--main-fg);
+	width: 25em;
+	font-size: 0.7em;
+}
+
+input:required:valid,
+textarea:required:valid {
+	border: 1px solid #0c0;
+}
+
+input:required:invalid,
+textarea:required:invalid {
+	border: 1px solid #c00;
+}
+
+form,
+textarea {
+	width: calc(100% - 1.8em);
+	font-size: 0.9em;
+}
+
+textarea {
+	resize: vertical;
+	height: 15em;
+}
+
+form {
+	outline: var(--debug-outline);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 3em;
+}
+
+/* Here you've got some "advanced css-techniques"... although, in this case it's just a stupid and overly complicated way of not directly addressing the send-button */
+
+form>*:last-child {
+	outline: var(--debug-outline);
+	font-weight: bolder;
+	font-size: 0.7em;
+
+	width: auto;
+	padding-left: 3em;
+	padding-right: 3em;
+
+
+	margin-top: 1em;
+}
+
+#sender-info {
+	outline: var(--debug-outline);
+
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+
+
+/* About */
+
+
+
+/* Home */
