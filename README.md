@@ -46,16 +46,16 @@ Construct an advanced personal portfolio website with a deep focus on HTML and C
 - [x] css for footer
 - [x] get logo and name for website
 - [x] fix links and templates for all pages
-- [ ] fill abouts page with data
+- [x] fill abouts page with data
 - [x] make image gallery (copy the penguins)
-- [ ] make a contact form
+- [x] make a contact form
 - [ ] fix footer links for home
-- [ ] fix footer links for about
+- [x] fix footer links for about
 - [x] fix footer links for gallery
-- [ ] fix footer links for contact
+- [x] fix footer links for contact
 - [x] smooth scrolling
-- [ ] <++>
-- [ ] <++>
+- [ ] Write some stuff about the page on the home screen
+- [ ] Make css responsive
 - [ ] <++>
 - [ ] <++>
 - [ ] <++>

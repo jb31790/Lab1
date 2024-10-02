@@ -1,8 +1,7 @@
 /* Global */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
 	--main-fg: #eee;
@@ -10,7 +9,7 @@
 	--main-overlay-bg: #122;
 	--main-accent: #B44833;
 	--muted-gray: #666;
-	--font-monospace: monospace;
+	--font-monospace: "Space Mono", monospace;
 	--header-height: 5em;
 	--footer-height: 13em;
 	--debug-mode: 0;
@@ -29,6 +28,11 @@ body {
 	margin: 0;
 	padding-top: var(--header-height);
 	width: 100%;
+	font-family: var(--font-monospace);
+}
+
+* {
+	font-family: var(--font-monospace);
 }
 
 a {
@@ -326,7 +330,7 @@ textarea {
 	background-color: var(--main-overlay-bg);
 	padding: 0.9em;
 	border: 1px solid #111;
-	border-radius: 25px;
+	border-radius: 10px;
 	color: var(--main-fg);
 	width: 25em;
 	font-size: 0.7em;
@@ -376,6 +380,12 @@ form>*:last-child {
 
 
 	margin-top: 1em;
+	opacity: 0.7;
+}
+
+form>*:last-child:hover {
+	opacity: 1;
+	border: 1px solid #0c0;
 }
 
 #sender-info {
