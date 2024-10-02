@@ -1,5 +1,6 @@
 # Lab 1
 **Author: JB**
+
 **Date: 2024-10-02**
 
 ## Introduction
@@ -12,7 +13,7 @@ In short, the objective of this lab was to create a website with html and css, m
 My initial approach to this lab was to read through the requirements to pass the lab, and then write up a plan of how I'd create my website. After writing my plan, which can be found in the [readme-file](./README.md), I created a todo-list out of this plan, so that I would have something that I could actually act upon.
 
 ## Template
-When creating websites I usually try to start of by making a base html "template" of my website. This template includes just about everything outside of the `<main>` section. So I make a sensible header, navbar, footer, etc. One thing thats important to note however is that I start of by making it purely in html, so no css. This is done to make sure that the website is somewhat sensible without css. This is required for lots or reasons, SEO (Search Engine Optimization), accessabillity support, and support for alternative browsers (w3m, lynx, etc.) just to name a few.
+When creating websites I usually try to start of by making a base html "template" of my website. This template includes just about everything outside of the `<main>` section. So I make a sensible header, navbar, footer, etc. One thing thats important to note however is that I start of by making it purely in html, so no css. This is done to make sure that the website is somewhat sensible without css. This is required for lots or reasons, SEO (Search Engine Optimization), accessability support, and support for alternative browsers (w3m, lynx, etc.) just to name a few.
 
 After I've created this html-template I start styling this with css.
 
@@ -62,11 +63,11 @@ I set this attribute on most of my elements, and when I later quickly want to se
 ## Creating Pages
 When I've got an html "template", correctly styled with css, I can start adding in content.
 
-*Aaaand, voila, a finished website.*
+*Aaaand, voila, a finished website!!*
 
 
 # Challenges
-I know this may sound a bit cocky, but I haven't really stumbled upon any challenges with this assignment. I've created quite a few html/css webpages before and already solved most problems already. Sure, responsiveness is always a bit tricky to get working, but thats pretty easily solveable using the em-unit and scaling the font on different screen-sizes. I've gotta admit that making this page responsive was a bit tricky since I didn't exactly follow every best practice while making this site. I had to speedrun this thing, so I planned and made this website all in one sitting. This means that I made lots of small mistakes that I would've fixed if I had more time.
+I know this may sound a bit cocky, but I honestly haven't really stumbled upon any challenges with this assignment. I've created quite a few html/css webpages before and already solved most problems already. Sure, responsiveness is always a bit tricky to get working, but thats pretty easily solveable using the em-unit and scaling the font on different screen-sizes. I've gotta admit that making this page responsive was a bit tricky since I didn't exactly follow every best practice while making this site. I had to speedrun this thing, so I planned and made this website all in one sitting. This means that I made lots of small mistakes that I would've fixed if I had more time.
 
 
 # Conclusion
