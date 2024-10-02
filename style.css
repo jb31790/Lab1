@@ -424,13 +424,8 @@ form>*:last-child:hover {
 		width: 100%;
 	}
 
-	footer #data ul {
-		width: 100%;
-	}
 
-	footer #socials {
-		width: 100%;
-	}
+
 }
 
 @media only screen and (max-width: 1400px) {
@@ -443,8 +438,6 @@ form>*:last-child:hover {
 	#contact-form {
 		width: 80%;
 	}
-
-
 
 }
 
@@ -499,10 +492,6 @@ form>*:last-child:hover {
 	body {
 		font-size: 16px;
 	}
-}
-
-@media only screen and (max-width: 600px) {
-
 
 	footer {
 		height: 35em;
@@ -512,6 +501,11 @@ form>*:last-child:hover {
 		min-height: calc(99vh - 8em - 35em);
 		padding-top: 3em;
 	}
+}
+
+@media only screen and (max-width: 600px) {
+
+
 
 	body {
 		font-size: 14px;
