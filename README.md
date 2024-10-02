@@ -26,3 +26,39 @@ Construct an advanced personal portfolio website with a deep focus on HTML and C
 
 
 ## Plan
+
+### Outline
+- 4 pages (home, about, gallery, contact)
+- header>nav&logo, main>articles, footer>links&small_nav
+- Gallery page with 3x3 images (flexbox)
+- About page with info ab. me and the purpose of this website
+- Nav bar that highlights the current page, also has an animated dropdown menu with quicklinks to the article headers
+- Contact page with a form that sends an email
+- CSS variables for colors + "debug mode"
+- Footer with fake ig, x, fb links, fake privacy-policy, tos, copyright, etc.
+
+### Todo
+- [ ] html outline for every page
+- [ ] html footer
+- [ ] html nav
+- [ ] get logos for social links
+- [ ] <++>
+- [ ] <++>
+- [ ] <++>
+- [ ] <++>
+- [ ] <++>
+- [ ] <++>
+- [ ] <++>
+- [ ] <++>
+- [ ] <++>
+- [ ] <++>
+- [ ] <++>
+- [ ] <++>
+- [ ] <++>
+- [ ] <++>
+- [ ] <++>
+- [ ] <++>
+- [ ] <++>
+- [ ] <++>
+- [ ] <++>
+- [ ] <++>
