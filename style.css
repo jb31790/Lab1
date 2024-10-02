@@ -404,3 +404,11 @@ form>*:last-child:hover {
 
 
 /* Home */
+
+#link {
+	color: var(--main-accent);
+}
+
+#link:hover {
+	text-decoration: underline wavy var(--main-accent);
+}
