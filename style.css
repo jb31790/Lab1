@@ -467,9 +467,21 @@ form>*:last-child:hover {
 }
 
 @media only screen and (max-width: 900px) {
+
 	/* :root { */
 	/* 	--footer-height: 20em */
 	/* } */
+
+	#gallery {
+		width: 60%;
+		flex-direction: column;
+		align-items: center;
+		gap: 3em;
+	}
+
+	#gallery img {
+		width: 100%;
+	}
 
 	footer #data {
 		padding-top: 3em;
@@ -519,17 +531,11 @@ form>*:last-child:hover {
 		flex-direction: column;
 	}
 
-	#gallery {
-		font-size: 12px;
-	}
 }
 
 @media only screen and (max-width: 500px) {
 
 
-	#gallery {
-		font-size: 8px;
-	}
 
 	header>a {
 		display: none;
@@ -575,9 +581,6 @@ form>*:last-child:hover {
 		font-size: 10px;
 	}
 
-	#gallery {
-		font-size: 5px;
-	}
 
 }
 
